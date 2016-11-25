@@ -1,0 +1,6 @@
+suites:
+    board_game:
+        spec_path: ./src/Tests
+        spec_prefix: Spec
+        namespace: BoardGame
+        src_path: ./src
