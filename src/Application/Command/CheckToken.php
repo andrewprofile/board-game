@@ -21,7 +21,7 @@ final class CheckToken implements Command
      * ForwardToken constructor.
      * @param string $tokenId
      */
-    public function __construct($tokenId)
+    public function __construct(string $tokenId)
     {
         $this->tokenId = $tokenId;
     }
